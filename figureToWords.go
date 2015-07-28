@@ -3,9 +3,9 @@ import "os"
 import "fmt"
 
 func converter(s string) string {
-    runes := []rune(s)
+    answer :=""
     
-    return string(runes)
+    return string(answer)
 }
 func main() {
 
