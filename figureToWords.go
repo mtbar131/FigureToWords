@@ -3,9 +3,9 @@ import "os"
 import "fmt"
 func main() {
 
-argsWithoutProg := os.Args[1:]
+inputNumber := os.Args[1:]
 
  
-    fmt.Println(argsWithoutProg)
+    fmt.Println(inputNumber)
     
 }
