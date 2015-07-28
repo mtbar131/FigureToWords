@@ -12,6 +12,6 @@ func main() {
 inputNumber := os.Args[1:]
 
  
-    fmt.Println(convert(inputNumber))
+    fmt.Println(converter(inputNumber))
     
 }
