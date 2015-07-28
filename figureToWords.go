@@ -5,6 +5,7 @@ import "fmt"
 
 func converter(s string) string {
 
+	var answer :=""
 	var single_digits = []string{ "zero", "one", "two", "three", "four",
 		"five", "six", "seven", "eight", "nine"}
 	
@@ -22,11 +23,15 @@ func converter(s string) string {
 	// fmt.Println(tens_power);
 	// fmt.Println(tens_multiple);
 
+    
+    return string(answer)
+
 }
 
 func main() {
 
 	inputNumber := os.Args[1:]
+
 
 	converter("test")
 	fmt.Println(inputNumber)
